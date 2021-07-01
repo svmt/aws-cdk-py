@@ -1,4 +1,5 @@
--e
+appdirs==1.4.4
+attrs==20.3.0
 aws-cdk.assets==1.110.0
 aws-cdk.aws-apigateway==1.110.0
 aws-cdk.aws-applicationautoscaling==1.110.0
@@ -22,7 +23,7 @@ aws-cdk.aws-ecr==1.110.0
 aws-cdk.aws-ecr-assets==1.110.0
 aws-cdk.aws-ecs==1.110.0
 aws-cdk.aws-efs==1.110.0
-aws-cdk.aws-eks==1.109.0
+aws-cdk.aws-eks==1.110.0
 aws-cdk.aws-elasticloadbalancing==1.110.0
 aws-cdk.aws-elasticloadbalancingv2==1.110.0
 aws-cdk.aws-events==1.110.0
@@ -51,20 +52,25 @@ aws-cdk.cloud-assembly-schema==1.110.0
 aws-cdk.core==1.110.0
 aws-cdk.custom-resources==1.110.0
 aws-cdk.cx-api==1.110.0
-aws-cdk.lambda-layer-awscli==1.109.0
-aws-cdk.lambda-layer-kubectl==1.109.0
+aws-cdk.lambda-layer-awscli==1.110.0
+aws-cdk.lambda-layer-kubectl==1.110.0
+aws-cdk.pipelines==1.110.1
 aws-cdk.region-info==1.110.0
--e git+git@github.com:svmt/aws-svmt-infra.git@182e7a72fa4d2b2bfca7708cbf7c3058db988873#egg=aws_svmt_infra
+boto3==1.17.103
+botocore==1.20.103
 cattrs==1.5.0
 certifi==2020.12.5
 constructs==3.3.86
 distlib==0.3.1
 filelock==3.0.12
+jmespath==0.10.0
 jsii==1.30.0
 pipenv==2020.11.15
 publication==0.0.3
 python-dateutil==2.8.1
+s3transfer==0.4.2
 six==1.16.0
 typing-extensions==3.10.0.0
+urllib3==1.26.6
 virtualenv==20.4.6
 virtualenv-clone==0.5.4

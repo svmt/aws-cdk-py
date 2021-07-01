@@ -7,6 +7,9 @@ from pipelines.pipeline_stack import PipelineStack
 PIPELINE_ACCOUNT = '997796868421'
 
 app = core.App()
-PipelineStack(app, 'PipelineStack')
+PipelineStack(app, 'PipelineStack', env={
+  'account': PIPELINE_ACCOUNT,
+  'region': 'eu-central-1',
+})
 
 app.synth()

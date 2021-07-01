@@ -3,7 +3,7 @@ from aws_cdk import aws_codepipeline as codepipeline
 from aws_cdk import aws_codepipeline_actions as cpactions
 from aws_cdk import pipelines
 import boto3
-import sys
+
 from .vpc_stage import VPCStage
 
 
@@ -42,9 +42,9 @@ class PipelineStack(core.Stack):
 
         account_list = []
         stages = (
-            'Dev',
+            # 'Dev',
             'Stage',
-            'Prod',
+            # 'Prod',
         )
 
         for page in page_iterator:
