@@ -42,9 +42,9 @@ class PipelineStack(core.Stack):
 
         account_list = []
         stages = (
-            # 'Dev',
-            'Stage',
-            # 'Prod',
+            'Dev',
+            'Staging',
+            'Prod',
         )
 
         for page in page_iterator:
